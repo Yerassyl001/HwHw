@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CssAssignment.css">
+	<link rel="icon"  href="favicon.ico">
+	<title>How to write your first site?</title>
+</head>
+<body>
+	<div class="box-area" >
+	  	    <li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+	  </div>
+		<div id="header_one" >
+			<h1>On this site you will learn how to write your first site with <abbr title="Hyper text markup language"><em>HTML</em></abbr> and <abbr title="Cascading Style Sheets"><em>CSS</em></abbr></h1>
+		</div>
+
+		<div class="block">
+			<h2 style="font-size: 35px;">HTML - hyper text markup language</h2>
+
+			<div id="html">
+				<p style="font-size: 20px;">
+				HTML is the most basic building block of the Web. It defines the meaning and structure of web content.
+				HTML uses "markup" to annotate text, images, and other content for display in a Web browser.
+				Each html project starts like that:
+				<br>
+
+	<pre style="font-size: 15px;">
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+		&lt;title &gt;&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+
+	&lt;/body&gt;
+	&lt;/html&gt;
+	</pre>
+
+				</p>
+			</div>
+
+			<div style="display: inline-block;">
+				<img id = "html_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="Html" border="0">
+			</div>
+
+		</div>
+		<hr>
+
+	<div class="block">
+		<h2>&lt;html&gt;</h2>
+
+		<p>The &lt;html&gt; tag represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements (except for the <! DOCTYPE> tag). Note: You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page.
+		</p>
+
+		<h2>&lt;/html&gt;</h2>
+
+	</div >
+	<hr>
+
+	<div class="block">
+		<h2 class="wave" ><a href="https://www.w3schools.com/tags/tag_head.asp">&lt;head&gt;</a></h2>
+
+		<p>The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page &lt;title&gt;, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.) In this article we'll cover all of the above and more, in order to give you a good basis for working with markup.
+		</p>
+
+		<h2>&lt;/head&gt;</h2>
+
+	</div>
+	<hr>
+
+	<div class="block">
+
+		<h2 class="wave"><a href="https://www.w3schools.com/tags/tag_body.asp">&lt;body&gt;</a></h2>
+		<p>
+			HTML &lt;body&gt; tag defines the main content of an HTML document which displays on the browser. It can contain text content, paragraphs, headings, images, tables, links, videos, etc. The &lt;body&gt; must be the second element after the &lt;head&gt; tag or it should be placed between &lt;/head&gt;and &lt;/html&gt; tags. <br>
+			There are a ton of tags that are used to build a site. <br>
+			For example: <br><br>
+
+		<div style="background-color:none ;">
+
+			<div class="inline">
+				ORDERED LIST<br>
+				<ol>
+					<li>Apple</li>
+					<li>Banana</li>
+					<li>Grape</li>
+				</ol>
+			</div>
+
+			<div class="inline">
+				UNSORDERED LIST <br>
+				<ul>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+				</ul>
+			</div>
+
+			<span style="font-size:20px;">Table:</span>
+
+			<div class="inline">
+				<table style="font-size:20px ; margin: 20px 20px 0 20px;">
+					<tr>
+						<th>head1</th>
+						<th>head2</th>
+						<th>head3</th>
+						<th>head4</th>
+						<th>head5</th>
+					</tr>
+					<tr>
+						<td>cerberus</td>
+						<td>cerberus</td>
+						<td>cerberus</td>
+						<td>cerberus</td>
+						<td>cerberus</td>
+					</tr>
+					<tr>
+						<td>gorynich</td>
+						<td>gorynich</td>
+						<td>gorynich</td>
+						<td>gorynich</td>
+						<td>gorynich</td>
+					</tr>
+				</table>
+			</div>
+
+			<div>
+				Also can add some emojis &#128520; &#128519; &#128523; &#128515; &#128525;
+			</div><br>
+
+			<div class="wave" >
+				FOR ADDITIONAL INFORMATION ON HTML <a href="https://www.w3schools.com/html/">CLICK HERE</a>.
+			</div>
+		</div>
+		</p>
+
+		<h2>&lt;/body&gt;</h2>
+	</div>
+
+	<hr>
+
+	<div style="width: 100%; background-color: none;" class="block">
+		<h2 style="font-size: 35px;">CSS - Cascading Style Sheets</h2>
+
+		<div id="css_div1">
+
+			<p style="font-size: 20px;" class="wave">
+				Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. For additional information <a href="https://www.w3schools.com/css/default.asp">click here</a>.
+			</p>
+
+			<pre style="font-size: 15px;">
+	The was CSS works:
+	selector{property: value;}
+
+	Example:
+	h3{color: red;}
+
+	Normal h3 header:        After CSS styleing:
+
+	<span id="he-example">Header               <span style="color: red; padding-bottom: 10px;">Header</span></span>
+			</pre>
+
+		</div>
+
+		<div style="display: inline; position: relative;"><img id="css_img"	 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="Logo-CSS3" border="0">
+		</div>
+	</div>
+	<br>
+	<hr>
+
+	<div class="block">
+		<h2 style="font-size: 35px;">Javascript</h2>
+		<div class="java" id="javatext" >
+			JavaScript is a very powerful tool that can do many things for a website. For one, it powers the site's general 	interactivity. JavaScript makes it possible to build rich UI components such as image sliders, pop-ups, site navigation mega menus, form validations, tabs, accordions, and much more.
+			For additional information <a href="https://www.w3schools.com/js/default.asp" >click here</a>.
+		</div>
+
+		<div class="java"><img id="java_img" src="https://cdn.coursehunter.net/category/javascript.png" alt="javascript" border="0">
+		</div>
+	</div>
+	<br>
+	<hr>
+	<div class="block">
+		<h2 style="font-size: 35px;">Bootstrap</h2>
+		<div class="java" id="javatext" >
+			Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. For more information click here <a href="https://getbootstrap.com/" >click here</a>.
+		</div>
+
+		<div><img id="bootstrap" src="https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png" alt="bootstrap" border="0">
+		</div>
+	</div>
+	<br>
+    <hr>
+	<div class="block" style=" padding-bottom: 30px;">
+		<h2 style="font-size: 35px;">Site example</h2>
+		<div>
+			Using all things said above we can create a web site like that. <a href="../html.html">CLICK</a>
+		</div>
+	</div>
+</body><br>
+<hr>	
+</html>

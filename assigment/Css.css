@@ -1,0 +1,96 @@
+html,body {
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
+#main{
+	background-color: #BAAEAB;
+	display: fixed;
+}
+#features{
+	background-color: #BAAEAB;
+}
+div {
+	cursor: none !important;
+  }
+h1{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h2{
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+h3{
+	font-weight: bold;
+}
+p{
+	color:#009e9b;
+}
+.container-fluid{
+	padding: 10% 2% 3% 15%;
+}
+.img{
+	position: relative;
+	top:-150px;
+}
+#features{
+	padding:0% 5% 0% 5%;
+	text-align: center;
+}
+.icon{
+	margin: 1rem;
+}
+.icon:hover{
+	color:#009e9b;
+}
+#testimonials{
+	padding: 4% 7% 1% 7% ;
+	text-align: center;
+	background-color:#8a7975;
+}
+.Steve{
+	width: 15%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.press{
+	background-color:#8a7975;
+	width: 15%;
+	padding: 0% 0% 1% 0% ;
+}
+.mineMusic{
+	text-align: center;
+	float: right;
+	margin-right: 1%;
+	margin-left: 22%;
+	margin-top: 50px;
+	display: flex;
+	align items: center;
+}
+#icon {
+	margin-left: 18px;
+	margin-bottom: 70px;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+#cursor{
+	z-index: 1;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	transition: 0.01 s;
+	transform: translate(-10%,-10px);
+	border-radius: 50%;
+	pointer-events: none;
+
+}
+.row{
+	display: flex;
+}

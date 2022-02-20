@@ -1,0 +1,23 @@
+body{
+	margin: 0%;
+	overflow: hidden;
+	background: rgb(17, 17, 19);
+}
+
+li{
+	margin-top: 3px;
+}
+#form1{
+border-style: solid;
+width: 400px;
+background-color: gray;
+position: absolute;
+top: 20%;
+right: 37%;
+padding-top: 30px;
+padding-bottom: 50px;
+margin:0 auto;
+}
+input{
+	width: 100%;
+}

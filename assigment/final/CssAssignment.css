@@ -1,0 +1,187 @@
+#header_one{
+	background-color: none;
+	color: black;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	width: 600px;
+}
+#html{
+	background-color: none;
+	box-sizing: border-box;
+	display: inline-block;
+	height: auto;
+	margin-left: 35px;
+	margin-top: 0;
+	object-position: top;
+	width: 40%;
+
+}
+#html_img{
+	background-image: initial;
+	height: 350px;
+	margin-left: 35px;
+	position: relative;
+	width: auto;
+}
+#he-example{
+	font-size: 1.17em;
+	font-weight: bold;
+}
+abbr{
+	text-decoration: none;
+}
+#css_img{
+	height: 300px;
+	margin-left: 35px;
+	position: relative;
+	width: auto;
+}
+#css_div1{
+	box-sizing: border-box;
+	clear: left;
+	display: inline;
+	float: left;
+	margin-left: 35px;
+	position: relative;
+	width: 40%;
+}
+.inline{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+}
+table, th, td{
+	 border: 2px solid black;
+	 border-collapse: collapse;
+}
+body{
+	background: linear-gradient( to left, #8942a8, #ba382f );
+	font-size: 20px;
+	height: 100vh;
+	width: 98%;
+}
+.java{
+	display: inline-block;
+	position: relative;
+}
+
+#java_img{
+	height: 300px;
+	margin-left: 35px;
+	position: relative;
+	width: 440px;
+}
+#javatext{
+	box-sizing: border-box;
+	clear: left;
+	display: inline;
+	float: left;
+	margin-left: 35px;
+	position: relative;
+	width: 40%;
+}
+.block{
+ border-radius: 10px;
+ box-shadow: 0 0 10px #000;
+}
+.box-area{
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.box-area li{
+	animation: animate 20s linear infinite;
+	background: rgba(255,255,255,0.2);
+	bottom: -350px;
+	display: block;
+	height: 25px;
+	list-style: none;
+	position: absolute;
+	width: 25px;
+}
+.box-area li:nth-child(1){
+	animation-delay: 0s;
+	height: 80px;
+	left: 86%;
+	width: 80px;
+}
+.box-area li:nth-child(2){
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+	height: 30px;
+	left: 12%;
+	width: 30px;
+}
+}
+.box-area li:nth-child(3){
+	animation-delay: 5.5s;
+	height: 100px;
+	left: 70%;
+	width: 100px;
+}
+}
+.box-area li:nth-child(4){
+	animation-delay: 0s;
+	animation-duration: 15s;
+	height: 150px;
+	left: 42%;
+	width: 150px;
+}
+.box-area li:nth-child(5){
+	animation-delay: 0s;
+	height: 40px;
+	left: 65%;
+	width: 40px;
+}
+.box-area li:nth-child(6){
+	animation-delay:3.5s;
+	height:110px;
+	left: 15%;
+	width: 110px;
+}
+@keyframes animate{
+	0%{
+		opacity: 1;
+		transform: translateY(0) rotate(0deg);
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-800px) rotate(360deg);
+	}
+}
+hr{
+		border: 0;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+		height: 1px;
+}
+ a{
+    background: linear-gradient(to bottom, #337AB7 0%, #337AB7 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: #337AB7 ;
+		padding-bottom: 2px;
+    text-decoration: none;
+}
+
+ a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23337AB7' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-2,10,-2 s 5,2,10,2 c 5,0,5,-2,10,-2 s 5,2,10,2'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 4px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+}
+#bootstrap{
+	height: auto;
+	width: auto;
+	max-height: 700px;
+	max-width: 700px;
+}
